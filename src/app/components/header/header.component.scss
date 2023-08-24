@@ -1,0 +1,32 @@
+@import "../../../styles.scss";
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 3px solid $color-primary;
+    
+    ul {
+        list-style-type: none;
+        display: flex;
+        font-family: $font-primary;
+        color: $color-primary;
+        font-size: 22px;
+        gap: 40px;
+
+        a {
+            text-decoration: none;
+            color: $color-primary;
+
+            &:hover {
+                background-color: $color-primary;
+                color: white;
+                border-radius: 8px;
+                padding-right: 2px;
+                padding-left: 2px;
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+@import "../../../styles.scss";
+
+.navbar {
+    width: 100%;
+    background-color: $color-primary;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-family: $font-primary;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    .icons {
+        display: flex;
+        gap: 5px;
+
+        img {
+            width: 25px;
+            filter: invert(100%);
+
+            &:hover {
+                border-radius: 50%;
+                border: #000000 3px solid;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .logo {
+        h1 {
+        font-size: 25px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+        }
+    }
+
+    .user {
+        ul {
+            list-style-type: none;
+            display: flex;
+            gap: 10px;
+
+            li {
+
+                &:hover {
+                    background-color: white;
+                    color: $color-primary;
+                    border-radius: 8px;
+                    padding-right: 2px;
+                    padding-left: 2px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    
+}
