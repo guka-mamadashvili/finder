@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'finder';
+  topPicks = ["../assets/cafe.svg", "../assets/restaurant.svg", "../assets/shopping.svg"]
 }

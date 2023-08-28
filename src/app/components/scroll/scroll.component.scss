@@ -1,0 +1,13 @@
+.scroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+  img {
+    width: 30px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
